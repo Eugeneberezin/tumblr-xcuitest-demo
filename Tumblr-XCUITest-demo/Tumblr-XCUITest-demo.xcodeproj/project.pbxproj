@@ -14,6 +14,7 @@
 		05D1D51022AC9800006DEC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D1D50E22AC9800006DEC0B /* LaunchScreen.storyboard */; };
 		05D1D51B22AC9801006DEC0B /* Tumblr_XCUITest_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1D51A22AC9801006DEC0B /* Tumblr_XCUITest_demoTests.swift */; };
 		05D1D52622AC9801006DEC0B /* Tumblr_XCUITest_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D1D52522AC9801006DEC0B /* Tumblr_XCUITest_demoUITests.swift */; };
+		05E5C68F22AD98AF0001D66A /* RegistrationScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5C68E22AD98AF0001D66A /* RegistrationScreens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05D1D52122AC9801006DEC0B /* Tumblr-XCUITest-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tumblr-XCUITest-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D1D52522AC9801006DEC0B /* Tumblr_XCUITest_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblr_XCUITest_demoUITests.swift; sourceTree = "<group>"; };
 		05D1D52722AC9801006DEC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E5C68E22AD98AF0001D66A /* RegistrationScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				05D1D52522AC9801006DEC0B /* Tumblr_XCUITest_demoUITests.swift */,
 				05D1D52722AC9801006DEC0B /* Info.plist */,
+				05E5C68E22AD98AF0001D66A /* RegistrationScreens.swift */,
 			);
 			path = "Tumblr-XCUITest-demoUITests";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E5C68F22AD98AF0001D66A /* RegistrationScreens.swift in Sources */,
 				05D1D52622AC9801006DEC0B /* Tumblr_XCUITest_demoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
