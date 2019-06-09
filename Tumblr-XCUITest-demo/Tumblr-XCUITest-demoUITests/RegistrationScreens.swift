@@ -76,10 +76,10 @@ class RegistrationScreens {
         textFields.username.tap()
         textFields.username.typeText(userName)
         buttons.done.tap()
-        
-        
     }
     
+
+
     static  func logOut(email: String) {
         tumblr.navigationBars["Tumblr.BlogView"].buttons["account icons settings"].tap()
         tumblr.tables/*@START_MENU_TOKEN@*/.staticTexts["General settings"]/*[[".cells.staticTexts[\"General settings\"]",".staticTexts[\"General settings\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
