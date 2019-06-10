@@ -82,7 +82,7 @@ class RegistrationScreens {
 
     static  func logOut(email: String) {
         tumblr.navigationBars["Tumblr.BlogView"].buttons["account icons settings"].tap()
-        tumblr.tables/*@START_MENU_TOKEN@*/.staticTexts["General settings"]/*[[".cells.staticTexts[\"General settings\"]",".staticTexts[\"General settings\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        tumblr.tables.staticTexts["General settings"].tap()
         tumblr.tables.staticTexts[email].tap()
         tumblr.sheets["Are you sure you want to log out?"].buttons["Log out"].tap()
     }
