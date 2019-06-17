@@ -58,11 +58,11 @@ class RegistrationScreens {
         howOldAreYouTextField.typeText("25")
         tumblr.navigationBars["TMOnboardingNavigationWrapperView"].buttons["Next"].tap()
         Thread.sleep(forTimeInterval: 5)
-        tumblr.collectionViews/*@START_MENU_TOKEN@*/.staticTexts["Curators"]/*[[".cells.staticTexts[\"Curators\"]",".staticTexts[\"Curators\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        tumblr.collectionViews/*@START_MENU_TOKEN@*/.staticTexts["GIF art"]/*[[".cells.staticTexts[\"GIF art\"]",".staticTexts[\"GIF art\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        tumblr.collectionViews/*@START_MENU_TOKEN@*/.staticTexts["Animation"]/*[[".cells.staticTexts[\"Animation\"]",".staticTexts[\"Animation\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        tumblr.collectionViews/*@START_MENU_TOKEN@*/.staticTexts["Motion Graphics"]/*[[".cells.staticTexts[\"Motion Graphics\"]",".staticTexts[\"Motion Graphics\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        tumblr.collectionViews/*@START_MENU_TOKEN@*/.staticTexts["Net Art"]/*[[".cells.staticTexts[\"Net Art\"]",".staticTexts[\"Net Art\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        tumblr.collectionViews.staticTexts["Curators"].tap()
+        tumblr.collectionViews.staticTexts["GIF art"].tap()
+        tumblr.collectionViews.staticTexts["Animation"].tap()
+        tumblr.collectionViews.staticTexts["Motion Graphics"].tap()
+        tumblr.collectionViews.staticTexts["Net Art"].tap()
         tumblr.navigationBars["Tap the things you like"].buttons["Next"].tap()
         
     }
